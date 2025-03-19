@@ -1,0 +1,32 @@
+/* General Page Styling */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #727272;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+/* Container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Logo Styling */
+.logo {
+    max-width: 250px; /* Adjust size as needed */
+    height: auto;
+}
+
+/* "Coming Soon" Text */
+h1 {
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
